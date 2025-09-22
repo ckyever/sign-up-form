@@ -186,6 +186,7 @@ h1 {
   padding-left: 8px;
   border: 1px solid lightgray;
   border-radius: 8px;
+  width: 480px;
 }
 
 .signup-form input:focus-visible {
