@@ -7,6 +7,8 @@
   font-display: swap;
 }
 
+/* CSS Reset (based off https: //www.joshwcomeau.com/css/custom-css-reset) */
+
 /* Use a more-intuitive box-sizing model */
 *,
 *::before,
@@ -67,4 +69,40 @@ h4,
 h5,
 h6 {
   text-wrap: balance;
+}
+
+/* End of CSS Reset */
+
+body {
+  display: flex;
+}
+
+.banner {
+  width: 35%;
+  height: 100vh;
+  background-image: url("assets/sand_background.jpg");
+  background-size: cover;
+}
+
+.content {
+  width: 65%;
+}
+
+.company {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+h1 {
+  font-family: "Righteous";
+  color: white;
+  font-size: 6rem;
+  font-weight: 400;
+}
+
+.logo {
+  width: 180px;
 }
