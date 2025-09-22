@@ -85,6 +85,10 @@ body {
   background-color: var(--secondary-color);
 }
 
+fieldset {
+  border: none;
+}
+
 .banner {
   width: 35%;
   height: 100vh;
@@ -94,6 +98,7 @@ body {
 
 .content {
   width: 65%;
+  padding-left: 40px;
 }
 
 .company {
@@ -120,4 +125,23 @@ h1 {
   flex-direction: column;
   justify-content: center;
   font-size: 1.5rem;
+}
+
+.signup-fields {
+  display: flex;
+  gap: 80px;
+  padding: 0;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  margin-bottom: 60px;
+}
+
+.create-account {
+  margin: 40px 0;
 }
