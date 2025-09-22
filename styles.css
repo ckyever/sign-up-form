@@ -141,6 +141,7 @@ h1 {
 .description {
   padding-left: 40px;;
   margin-bottom: 60px;
+  font-weight: 500;
 }
 
 .create-account {
@@ -155,4 +156,25 @@ h1 {
 
 .login {
   padding-left: 40px;
+}
+
+.form-title {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.signup-form label {
+  font-size: 1.1rem;
+}
+
+.signup-form input {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
