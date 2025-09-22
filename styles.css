@@ -181,6 +181,7 @@ h1 {
 }
 
 .signup-form input {
+  padding-left: 8px;
   border: 1px solid lightgray;
   border-radius: 8px;
 }
