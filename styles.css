@@ -190,3 +190,9 @@ h1 {
   flex-direction: column;
   gap: 16px;
 }
+
+.login-link {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+}
