@@ -12,6 +12,7 @@
   --secondary-color: #F9FAFB;
   --primary-text-color: #000000;
   --secondary-text-color: #FFFFFF;
+  --dark-shadow: rgba(0, 0, 0, 0.3);
 }
 
 /* CSS Reset (based off https: //www.joshwcomeau.com/css/custom-css-reset) */
@@ -98,12 +99,11 @@ fieldset {
 
 .content {
   width: 65%;
-  padding-left: 40px;
 }
 
 .company {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--dark-shadow);
   justify-content: center;
   align-items: center;
   margin-top: 200px;
@@ -139,9 +139,20 @@ h1 {
 }
 
 .description {
+  padding-left: 40px;;
   margin-bottom: 60px;
 }
 
 .create-account {
-  margin: 40px 0;
+  margin: 40px;
+}
+
+.signup-form > section {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 var(--dark-shadow);
+  padding: 20px 0 40px 40px;
+}
+
+.login {
+  padding-left: 40px;
 }
