@@ -13,6 +13,8 @@
   --primary-text-color: #000000;
   --secondary-text-color: #FFFFFF;
   --dark-shadow: rgba(0, 0, 0, 0.3);
+  --focused: #2c84ff;
+  --invalid: #ff0000a6;
 }
 
 /* CSS Reset (based off https: //www.joshwcomeau.com/css/custom-css-reset) */
@@ -186,6 +188,11 @@ h1 {
   border-radius: 8px;
 }
 
+.signup-form input:focus-visible {
+  outline: 1px solid var(--focused);
+  box-shadow: 5px 5px 4px 0 var(--dark-shadow);
+}
+
 .form-column {
   display: flex;
   flex-direction: column;
@@ -196,4 +203,8 @@ h1 {
   color: var(--primary-color);
   font-weight: 600;
   text-decoration: none;
+}
+
+input[type="password"]:invalid {
+  outline: 1px solid var(--invalid);
 }
