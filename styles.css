@@ -145,7 +145,19 @@ h1 {
 }
 
 .create-account {
+  background-color: var(--primary-color);
+  color: var(--secondary-text-color);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 40px;
   margin: 40px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px 0 var(--dark-shadow);
+}
+
+.create-account:hover {
+  filter: brightness(1.1);
+  cursor: pointer;
 }
 
 .signup-form > section {
